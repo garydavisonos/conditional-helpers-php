@@ -17,5 +17,6 @@
   "minimum-stability": "dev",
   "require": {
     "php": "^8.0"
-  }
+  },
+  "version": "1.0.0"
 }
