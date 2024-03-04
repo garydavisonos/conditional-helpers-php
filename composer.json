@@ -1,0 +1,21 @@
+{
+  "name": "garydavisonos/conditional-helpers",
+  "description": "A collection of helper functions to be used in conditional logic",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gary Davison",
+      "email": "garydavisonos@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "GaryDavisonOs\\ConditionalHelpers\\": "src/GaryDavisonOs/ConditionalHelpers"
+    }
+  },
+  "minimum-stability": "dev",
+  "require": {
+    "php": "^8.0"
+  }
+}
