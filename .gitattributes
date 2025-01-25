@@ -1,0 +1,7 @@
+# Exclude tests, configuration files, and other unnecessary files
+/tests export-ignore
+/.gitignore export-ignore
+/.github export-ignore
+/phpunit.xml export-ignore
+
+# Do NOT exclude README.md
