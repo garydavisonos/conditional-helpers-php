@@ -2,7 +2,6 @@
 
 A collection of PHP helper functions to be used in conditional logic within projects.
 
-![Build Status]() //todo
 ![Version](https://img.shields.io/packagist/v/garydavisonos/conditional-helpers)
 ![License](https://poser.pugx.org/garydavisonos/conditional-helpers/license)
 ![Dependencies](https://img.shields.io/packagist/dependency-v/garydavisonos/conditional-helpers/php)
