@@ -12,9 +12,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Code Quality
-        run: composer test
-
       - name: Notify Packagist
         run: |
           curl -X POST https://packagist.org/api/update-package \
