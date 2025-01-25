@@ -1,0 +1,22 @@
+name: "Publish to Packagist 📦"
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Code Quality
+        run: composer test
+
+      - name: Notify Packagist
+        run: |
+          curl -X POST https://packagist.org/api/update-package \
+          -H "Authorization: Bearer ${{ secrets.PACKAGIST_TOKEN }}" \
+          -d '{"repository": "https://github.com/USERNAME/REPO"}'
